@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  A small filter images editor.
+  📱 A small filter images editor. 📷
 </p>
 
 ![Demo of Project](./.github/demo.gif)
