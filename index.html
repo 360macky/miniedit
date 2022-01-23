@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#aa00ff" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Round"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <script src="./js/foto.js" async></script>
+    <script src="./script.js" async></script>
+    <title>MiniEdit</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-inner-container">
+        <img src="./images/logo.svg" class="logo" />
+        <button
+          id="download-button"
+          onclick="download()"
+          class="btn btn-download download-button-desktop"
+        >
+          <span class="material-icons-round"> file_download </span>
+          <p id="download-button-text">Download edit</p>
+        </button>
+      </div>
+    </header>
+    <div class="mini-edit-app-wrapper">
+      <main class="main">
+        <div class="imgbox">
+          <div class="mini-edit-description-container">
+            <span class="material-icons-round mini-edit-description__image">
+              auto_awesome
+            </span>
+            <p><b>MiniEdit</b> has basic photograph editing filters.</p>
+          </div>
+          <div
+            id="file-upload-container"
+            class="file-upload-section"
+            onclick="selectImage()"
+          >
+            <input
+              type="file"
+              id="foto-file"
+              accept="image/png, image/gif, image/jpg, image/jpeg"
+            />
+            <span class="material-icons-round">file_upload</span>
+            <p>Upload your photography</p>
+          </div>
+          <div id="img-container" class="img-container hidden">
+            <img class="image" id="foto-image" />
+          </div>
+          <div id="image-effects-container" class="image-effects hidden">
+            <button onclick="makeGreyScale()" class="btn image-effects-btn">
+              Grayscale
+            </button>
+            <button onclick="makeSummer()" class="btn image-effects-btn">
+              Summer
+            </button>
+            <button onclick="makeWinter()" class="btn image-effects-btn">
+              Winter
+            </button>
+            <button onclick="makeBlur()" class="btn image-effects-btn">
+              Blur
+            </button>
+            <button onclick="makeEmboss()" class="btn image-effects-btn">
+              Emboss
+            </button>
+            <button onclick="makeSharp()" class="btn image-effects-btn">
+              Sharp
+            </button>
+          </div>
+        </div>
+      </main>
+      <div class="buttons">
+        <div id="image-options-container" class="image-option hidden">
+          <span class="material-icons-round brightness-label">
+            brightness_medium
+          </span>
+          <button
+            onclick="increaseBrightness()"
+            id="#3"
+            class="brightness-option"
+          >
+            <span class="material-icons-round"> add </span>
+          </button>
+          <button
+            onclick="decreaseBrightness()"
+            id="#4"
+            class="brightness-option"
+          >
+            <span class="material-icons-round"> remove </span>
+          </button>
+        </div>
+        <div class="reupload-container">
+          <button
+            class="btn btn-reupload hidden"
+            id="reupload-button"
+            onclick="reuploadImage()"
+          >
+            Upload new photography
+          </button>
+        </div>
+      </div>
+      <div id="download-container" class="download-button-container hidden">
+        <button
+          id="download-button"
+          onclick="download()"
+          class="btn btn-download download-button-mobile-or-tablet"
+        >
+          <span class="material-icons-round"> file_download </span>
+          <p id="download-button-text">Download edit</p>
+        </button>
+      </div>
+    </div>
+    <footer>
+      <p>
+        <img src="./images/logo_white.svg" class="footer__logo" />
+      </p>
+      <p class="footer__description">
+        MiniEdit - A small filter images editor.
+      </p>
+      <p class="footer__links">
+        <a href="#">License</a>
+        <a href="#">Repository</a>
+        <a href="#">Filters.js</a>
+      </p>
+    </footer>
+  </body>
+</html>
