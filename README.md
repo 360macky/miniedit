@@ -24,6 +24,8 @@ The idea came about after reviewing kousik348's project, Foto.js, a class with m
 
 I then proceeded to design the responsive user interface. Using a color palette obtained through Material.io Colors.
 
+Finally I made some adjustments to improve the performance in terms of page loading with a metric result between 90-95 in Google Lighthouse Performance.
+
 
 ## 🎨 UI Design
 Color palette used:
