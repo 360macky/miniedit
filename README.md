@@ -20,7 +20,7 @@ MiniEdit is a web tool for applying simple filters to photos. It is deployed on 
 
 
 ## 🏛️ History
-The idea came about after reviewing kousik348's project, Foto.js, a class with methods that modify a photograph by applying filters and effects. I did some code refactoring, and added more filters for this project.
+The idea came about after reviewing [kousik348's project](https://github.com/kousik19/foto.js), Foto.js, a class with methods that modify a photograph by applying filters and effects. I did some code refactoring, and added more filters for this project.
 
 I then proceeded to design the responsive user interface. Using a color palette obtained through Material.io Colors.
 
