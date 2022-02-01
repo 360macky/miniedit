@@ -35,5 +35,4 @@ Do you would like to contribute? Do you want to be the author of a new feature? 
 
 ## 📃 License
 
-Distributed under the MIT License.
-See [`LICENSE`](./LICENSE) for more information.
+Distributed under the MIT License except for the [fork original from kousik19](https://rawcdn.githack.com/kousik19/foto.js/d604b02c69b6f037875bc4a3050b85d776dc4659/foto.js).
