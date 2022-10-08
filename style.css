@@ -97,6 +97,34 @@ main {
   justify-content: center;
 }
 
+.mini-edit-app-about {
+  color: #ffffff;
+  padding-top: 1.6rem;
+  font-size: 1.1rem;
+  min-height: 64vh;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.mini-edit-app-about h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.mini-edit-app-about h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.mini-edit-app-about a {
+  color: #f4bdff;
+  text-decoration: none;
+}
+
+.mini-edit-app-about a:hover {
+  text-decoration: underline;
+}
+
 .mini-edit-description-container {
   background-color: white;
   color: var(--primary-color);
