@@ -19,6 +19,10 @@ const makeBlur = () => {
 };
 
 const download = () => {
+  if (document.getElementById('foto-file').value === '') {
+    alert('Please upload an image to edit');
+    return;
+  }
   document.getElementById('download-button-text').innerText = 'Downloaded!';
   photograph.export();
 };
