@@ -1,0 +1,17 @@
+{
+  "ci": {
+    "collect": {
+      "staticDistDir": "."
+    },
+    "assert": {
+      "assertionss": {
+        "categories.performance": [
+          "error", {
+            "minScore": 0.8
+          }
+        ]
+      }
+    }
+  }
+}
+
