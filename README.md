@@ -17,7 +17,7 @@
 
 ## 📦 Deployment
 
-MiniEdit is a web tool for applying simple filters to photos. It is deployed on GitHub Pages, since it does not use any backend but rather vanilla JavaScript for storing and modifying images.
+MiniEdit is a simple web tool for applying simple filters to photos. It is deployed on GitHub Pages, since it does not use any backend but rather vanilla JavaScript for storing and modifying images.
 
 ### Filters.js
 
